@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, section{
+    border: 1px solid black;
+}
+
+header, footer{
+    height: 100px;
+}
+
+section{
+    height: 300px;
+}
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.col-1-of-5{
+    width: 20%;
+    float: left;
+}
+
+.col-2-of-5{
+    width: 40%;
+    float: left;
+}
